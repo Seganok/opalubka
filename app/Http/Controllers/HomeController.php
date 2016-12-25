@@ -48,9 +48,9 @@ class HomeController extends Controller
         $lot->price = $request->price;
         $lot->otovare = $request->otovare;
         $lot->type = $request->type;
-        $file= $request->file('image');
-        $filename = $file->getClientOriginalName();
-        $file->move('images',$filename);
+            $file= $request->file('image');
+            $filename = $file->getClientOriginalName();
+            $file->move('images',$filename);
         $lot->image = '/public/'.$filename;
         $lot->save();
         return redirect('home')->with('status','Запись успешно добавлена');
@@ -94,9 +94,9 @@ class HomeController extends Controller
         $lot->price = $request->price;
         $lot->otovare = $request->otovare;
         $lot->type = $request->type;
-        $file= $request->file('image');
-        $filename = $file->getClientOriginalName();
-        $file->move('images',$filename);
+            $file= $request->file('image');
+            $filename = $file->getClientOriginalName();
+            $file->move('images',$filename);
         $lot->image = '/public/'.$filename;
         $lot->image = $request->image;
         $lot->save();

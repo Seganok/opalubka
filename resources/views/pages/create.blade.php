@@ -4,10 +4,9 @@
 @stop
 @section('content')
 {!! Form::open(['route' => 'home.store', 'files' => 'true']) !!}
-		{{ csrf_field() }}	
 
 	<div class="form-group">
-	{{ csrf_field() }}
+
     {!! Form::label('title', 'Название товара:', ['class' => 'control-label']) !!}
     {!! Form::text('title', null, ['class' => 'form-control']) !!}
 	</div>
@@ -32,6 +31,8 @@
     {!! Form::number('type', null, ['class' => 'form-control']) !!}
 	</div>
 	{!! Form::submit('Добавить товар', ['class' => 'btn btn-primary']) !!}
+		{{ csrf_field() }}	
+
 
 {!! Form::close() !!}
 

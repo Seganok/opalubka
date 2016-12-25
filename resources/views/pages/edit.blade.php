@@ -3,7 +3,7 @@
     Товары и услуги
 @stop
 @section('content')
- {!! Form::model($tasks, ['method' => 'PATCH','route' => ['home.update', $tasks->id]]) !!}
+ {!! Form::model($tasks, ['method' => 'PATCH', 'files' => 'true','route' => ['home.update', $tasks->id]]) !!}
 
 	{{ csrf_field() }}	
  	<div class="form-group">
