@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             'izmer' => $obj->izmer,
             'price' => $obj->price,
             'otovare' => $obj->otovare,
-            'published' => $ogj->published
+            'published' => $ogj->published,
             'image' => $obj->image,
             'type' => $obj->type
           ));
