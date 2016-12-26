@@ -10,7 +10,7 @@
                 <a  href="{{'/goods/'.$task->id}}">     
                     <img id="lot-images" data-original="{{$task->image}}"  src="{{$task->image}}">
                 <p id="lot-text">{{$task->title}}</p>
-                <p style="font-size: 15px; text-align: center; color: red;">1 {{$task->izmer}} {{$task->price}} руб/сутки</p>
+                <p style="font-size: 15px; text-align: center; color: red;">1 {{$task->izmer}} {{$task->price}} руб</p>
                 </a>
             </div>
         </div>

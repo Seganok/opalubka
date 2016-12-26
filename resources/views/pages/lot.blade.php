@@ -11,7 +11,7 @@
     <div class="col-xs-6 col-md-8 col-lg-8">    
         <h1>{{$tasks->title}}</h1>
         </br>
-        <h1 class="price-item">1 {{$tasks->izmer}} {{$tasks->price}} руб/день</h1>
+        <h1 class="price-item">1 {{$tasks->izmer}} {{$tasks->price}} руб</h1>
     </div>
 </div>
 </br>
