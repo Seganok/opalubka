@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Task;
+use Illuminate\Support\Facades\File;
+
 
 
 class HomeController extends Controller
@@ -120,9 +122,14 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
-    {
+    {   
         $task = Task::findOrFail($id);
-        $task->delete();
+        if (File::exists(public_path($task->image))) {
+            File::delete(public_path($task->image));
+            $task->delete();
+            }
+        else
+           $task->delete();
 
         return redirect()->back()->with('status','Запись успешно удалена');
     }
