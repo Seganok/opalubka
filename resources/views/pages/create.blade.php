@@ -5,6 +5,7 @@
 @section('content')
 {!! Form::open(['route' => 'home.store', 'files' => 'true']) !!}
 
+
 	<div class="form-group">
 
     {!! Form::label('title', 'Название товара:', ['class' => 'control-label']) !!}

@@ -48,12 +48,18 @@ class HomeController extends Controller
         $lot->price = $request->price;
         $lot->otovare = $request->otovare;
         $lot->type = $request->type;
+        if($request->hasFile('image')){
             $file= $request->file('image');
             $filename = $file->getClientOriginalName();
             $file->move('images',$filename);
-        $lot->image = '/public/'.$filename;
+        $lot->image = '/images/'.$filename;
         $lot->save();
         return redirect('home')->with('status','Запись успешно добавлена');
+        }else{
+            $lot->save();
+            return redirect('home')->with('status','Запись успешно добавлена');
+        }
+
     }
 
     /**
@@ -94,13 +100,17 @@ class HomeController extends Controller
         $lot->price = $request->price;
         $lot->otovare = $request->otovare;
         $lot->type = $request->type;
+        if($request->hasFile('image')){
             $file= $request->file('image');
             $filename = $file->getClientOriginalName();
             $file->move('images',$filename);
-        $lot->image = '/public/'.$filename;
-        $lot->image = $request->image;
+        $lot->image = '/images/'.$filename;
         $lot->save();
-        return redirect('home')->with('status','Запись успешно изменена');
+        return redirect('home')->with('status','Запись успешно добавлена');
+        }else{
+            $lot->save();
+            return redirect('home')->with('status','Запись успешно добавлена');
+        }
     }
 
     /**
@@ -114,6 +124,6 @@ class HomeController extends Controller
         $task = Task::findOrFail($id);
         $task->delete();
 
-        return redirect('home')->with('status','Запись успешно удалена');
+        return redirect()->back()->with('status','Запись успешно удалена');
     }
 }
