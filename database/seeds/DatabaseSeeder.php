@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $json = File::get("database/data/Lots.json");
-        $data = json_decode($json);
+        $data = collect(json_decode($json));
         foreach ($data as $obj) {
           Task::create(array(
             'id' => $obj->id,
