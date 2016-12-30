@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
+
 
 class PagesController extends Controller
 {
@@ -16,5 +18,9 @@ class PagesController extends Controller
 
 	public function getAbout(){
 		return view('pages.about');
+	}
+
+	public function getgoogle4d6b7f4dfee43ef7(){
+		return File::get('google4d6b7f4dfee43ef7.html');
 	}
 }
