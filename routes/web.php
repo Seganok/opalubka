@@ -23,6 +23,9 @@ Route::get('contacts', [
 Route::get('about', [
 	'uses' => 'PagesController@getAbout',
 	'as' => 'about']);
+Route::get('google4d6b7f4dfee43ef7', function(){
+	return view('google4d6b7f4dfee43ef7');
+});
 
 Auth::routes();
 
