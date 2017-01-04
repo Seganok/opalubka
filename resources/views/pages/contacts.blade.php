@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    Contacts
+    Контакты
 @stop
 @section('content')
 	<h2>Контактная информация</h2>
@@ -11,7 +11,7 @@
 		</tr>
 		<tr>
 			<th>Сайт компании:</th>
-			<th>Sev-Arenda-opalubki.ru</th>
+			<th>opalubka-v-sevastopole.ru</th>
 		</tr>
 		<tr>
 			<th>Email:</th>

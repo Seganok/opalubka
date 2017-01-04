@@ -1,10 +1,11 @@
 @extends('layouts.layout')
 @section('title')
-    Товары и услуги
+    Аренда опалубки Севастополь.
 @stop
 @section('content')
     <div class="raw">
     @foreach($tasks as $task)
+    <h1>Товары и услуги:</h1>
         <div class="lots col-xs-3 col-md-3 col-lg-3" style="height: 200px;">
             <div class="thumbnail">
                 <a  href="{{'/goods/'.$task->id}}">     

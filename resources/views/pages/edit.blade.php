@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    Товары и услуги
+    Изменяем товар.
 @stop
 @section('content')
  {!! Form::model($tasks, ['method' => 'PATCH', 'files' => 'true','route' => ['home.update', $tasks->id]]) !!}

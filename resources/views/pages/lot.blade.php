@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    Contacts
+    Опалубка,Леса,Туры,Стойки.
 @stop
 @section('content')
 <div class="row">

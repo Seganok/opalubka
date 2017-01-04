@@ -12,7 +12,7 @@
 		</tr>
 		<tr>
 			<th>Сайт компании:</th>
-			<th>Sev-Arenda-opalubki.ru</th>
+			<th>www.opalubka-v-sevastopole.ru</th>
 		</tr>
 		<tr>
 			<th>Email:</th>
