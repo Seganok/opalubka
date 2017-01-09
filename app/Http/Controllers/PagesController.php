@@ -23,4 +23,8 @@ class PagesController extends Controller
 	public function getgoogle4d6b7f4dfee43ef7(){
 		return File::get('google4d6b7f4dfee43ef7.html');
 	}
+
+	public function getsitemap(){
+		return File::get('sitemap.html');
+	}
 }
