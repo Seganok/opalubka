@@ -40,7 +40,7 @@
                             <a class="btn btn-primary" href="{{ URL::to('home/'.$task->id.'/edit')}}">Изменить</a>
                             </br>
                             {!! Form::open(['method' => 'DELETE','route' => ['home.destroy', $task->id]]) !!}
-                            {!! Form::submit('Delete', ['class' => 'delete_button btn btn-danger']) !!}
+                            {!! Form::submit('Удалить', ['class' => 'delete_button btn btn-danger']) !!}
                             {!! Form::close() !!}
 
                         </div>

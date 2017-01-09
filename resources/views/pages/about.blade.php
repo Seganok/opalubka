@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    О Нас
+    Сведения о компании
 @stop
 @section('content')
 	<h2>Сведения о компании</h2>

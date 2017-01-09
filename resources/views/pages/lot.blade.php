@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    Опалубка,Леса,Туры,Стойки.
+    {{$tasks->title}}
 @stop
 @section('content')
 <div class="row">
