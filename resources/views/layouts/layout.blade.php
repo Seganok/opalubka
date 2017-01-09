@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta name='wmail-verification' content='218fb1953e7ad25ed696a00d9bac4050' />
+	<meta name='robots' content="all"/>
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>@yield('title')</title>

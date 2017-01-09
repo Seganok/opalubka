@@ -28,6 +28,10 @@ Route::get('google4d6b7f4dfee43ef7', [
 	'uses' => 'PagesController@getgoogle4d6b7f4dfee43ef7',
 	'as' => 'google4d6b7f4dfee43ef7']);
 
+Route::get('sitemap', function()
+{
+	return Response::view('sitemap')->header('Content-Type', 'text/xml');
+});
 Auth::routes();
 
 Route::resource('home', 'HomeController');
