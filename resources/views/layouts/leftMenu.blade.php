@@ -33,10 +33,10 @@
 	<div class="contactInf">
 		<ul class="nav nav-tabs" id="myTab" role="tablist">
 			<li class="active">
-				<a href="#contacts" aria-controls="contacts" role="tab" data-toggle="tab">Контакты:</a>
+				<a href="#adress" aria-controls="adress" role="tab" data-toggle="tab">Адрес:</a>
 			</li>
 			<li>
-				<a href="#adress" aria-controls="adress" role="tab" data-toggle="tab">Адрес:</a>
+				<a href="#contacts" aria-controls="contacts" role="tab" data-toggle="tab">Контакты:</a>
 			</li>
 
 		</ul>
