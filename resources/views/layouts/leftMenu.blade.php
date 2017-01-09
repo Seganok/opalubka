@@ -43,6 +43,10 @@
 	</div>
 
 <div class="tab-content">
+	<div class="tab-pane fade in active" id="adress" >
+		<div id="map" style="width: 98%; height: 200px; padding-left: 5px;"></div>
+		<p>Севастополь, ул.Курганная 6,(Севастополь Шабалина 45)</p>
+	</div>		
 	<div class="tab-pane fade" id="contacts" >
 		<p>Контактное лицо: Дмитрий Шиленко</p>
 		<ul style="text-align: left;">
@@ -60,10 +64,6 @@
 			</li>
 		</ul>		
 	</div>
-	<div class="tab-pane fade in active" id="adress" >
-		<div id="map" style="width: 98%; height: 200px; padding-left: 5px;"></div>
-		<p>Севастополь, ул.Курганная 6,(Севастополь Шабалина 45)</p>
-	</div>		
 </div>			
 
 
