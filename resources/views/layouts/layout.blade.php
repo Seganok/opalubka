@@ -6,6 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>@yield('title')</title>
+    <link rel="shortcut icon" href="{{ asset('/favicon.ico')}}">
     <link href="/css/styles.css" type="text/css" rel="stylesheet">
     <link href="/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">  
