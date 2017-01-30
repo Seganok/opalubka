@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    {{$tasks->title}}
+    {{$tasks->title}} ЧП Шиленко Севастополь, продажа, аренда, опалубки, лесов, перекрытий.
 @stop
 @section('content')
 <div class="row">

@@ -17,9 +17,9 @@ class GoodsController extends Controller
         $type = $request->get('type');
 
         if(!empty($type)){
-            $tasks  = Task::where('type','=', $type)->get();
+            $tasks  = Task::where('type','=', $type)->orderBy('id')->get();
         }else{
-            $tasks=Task::all();  
+            $tasks=Task::orderBy('id')->get(); 
         }
         
         return view('pages.goods',['tasks'=>$tasks]);

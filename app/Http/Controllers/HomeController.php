@@ -27,7 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $tasks=Task::all();
+        $tasks=Task::orderBy('id')->get();
         return view('/home',['tasks'=>$tasks]);
     }
      public function create()

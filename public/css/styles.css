@@ -4,21 +4,16 @@ html {
 	padding: 0px;
 }
 
-
 .zag{
 	margin-top: 40px;
 	display: inline-block;
 	text-decoration: none;
 	text-align: left;
-	font-size: auto;
 }
 
 .min-zag{
-
 	text-decoration: none;
 	text-align: left;
-	font-size: auto;
-	display: table;
 	color: #333333;
 	margin-left: 80px;
 }
@@ -35,6 +30,7 @@ html {
 
 .nav>li>a {
 	color: #333333;
+
 }
 
 .header {

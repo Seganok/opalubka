@@ -24,8 +24,8 @@
 						</ul>		
 					</div>
 		        </li>
-		        <li class="nav-batt"><a href="/about">О Нас</a></li>
-		        <li class="nav-batt"><a href="/contacts">Контакты</a></li>
+		        <li class="nav-batt"><a href="/arenda_opalubki_sevastopol">О Нас</a></li>
+		        <li class="nav-batt"><a href="/kontakti">Контакты</a></li>
 	        </ul>
 	    </div>
 	</div>

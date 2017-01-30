@@ -16,13 +16,13 @@ Route::get('/', [
 	'as' => '/']);
 
 
-Route::get('contacts', [
+Route::get('kontakti', [
 	'uses' => 'PagesController@getContacts',
-	'as' => 'contacts']);
+	'as' => 'kontakti']);
 
-Route::get('about', [
+Route::get('arenda_opalubki_sevastopol', [
 	'uses' => 'PagesController@getAbout',
-	'as' => 'about']);
+	'as' => 'arenda_opalubki_sevastopol']);
 
 Route::get('google4d6b7f4dfee43ef7', [
 	'uses' => 'PagesController@getgoogle4d6b7f4dfee43ef7',
