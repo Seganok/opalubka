@@ -25,6 +25,10 @@ class PagesController extends Controller
 	}
 
 	public function getsitemap(){
-		return File::get('sitemap.html');
+		return File::get('sitemap.xml');
+	}
+
+	public function getrobots(){
+		return File::get('robots.txt');
 	}
 }

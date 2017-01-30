@@ -1,2 +1,6 @@
 User-agent: *
-Disallow:
+Disallow: /login/
+Disallow: /home/
+Disallow: /registr/
+Sitemap: http://www.opalubka-v-sevastopole.ru/sitemap.html
+Host: www.opalubka-v-sevastopole.ru

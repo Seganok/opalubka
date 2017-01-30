@@ -32,6 +32,12 @@ Route::get('sitemap', [
 	'uses' => 'PagesController@getsitemap',
 	'as' => 'sitemap']);
 
+Route::get('robots', [
+	'uses' => 'PagesController@getrobots',
+	'as' => 'robots']);
+
+
+
 Auth::routes();
 
 Route::resource('home', 'HomeController');
