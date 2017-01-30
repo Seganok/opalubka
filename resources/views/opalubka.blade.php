@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    Опалубка в Севастополе
+    Аренда и проадаж опалубки и оборудования предоставляется ЧП Шиленко. леса строительные, вышки-туры, подмостки. 
 @stop
 @section('content')
     <div class="mainContent">
